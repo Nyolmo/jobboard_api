@@ -1,0 +1,63 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.swp
+*.swo
+*.coverage
+*.egg-info/
+dist/
+build/
+
+# Django
+*.log
+*.pot
+*.mo
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+.env
+.env.*  # Ignore any other environment files
+local_settings.py
+
+# Docker
+*.env
+docker-compose.override.yml
+**/Dockerfile.*
+**/entrypoint.sh
+**/compose/**/Dockerfile
+**/compose/**/entrypoint.sh
+
+# VSCode / IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# PyCharm
+.idea/
+*.iml
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Node / Frontend (if any)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Pytest / coverage
+htmlcov/
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+.pytest_cache/
